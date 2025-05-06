@@ -1,0 +1,253 @@
+body {
+    margin: 0px;
+    padding:0px;
+    
+}
+
+header {
+    background-image: url("../images/home.jpg");
+    background-size: cover;
+     height:600px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    color: white;
+}
+.abc1{
+    font-size: 40px;
+}
+.navigation a {
+    color: white;
+    padding-right: 8px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.headtext {
+    text-transform: capitalize;
+    padding-left: 130px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.lowertext {
+    text-transform: capitalize;
+    padding-left: 90px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+
+
+hr {
+    margin-left: 20px;
+    width: 20%;
+    border: 0.5px solid gray;
+}
+
+.icons {
+    display: flex;
+    padding-left: 50px;
+    column-gap: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 40px 80px 0 80px;
+    column-gap: 20px;
+    text-align: center;
+}
+
+.divider {
+    border: 1px solid lightblue;
+    height: 100%;
+}
+
+.sagar {
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: 800;
+}
+
+.kamal {
+    color: gray;
+    font-size: small;
+}
+
+.image {
+    display: flex;
+    column-gap: 40px;
+    padding: 80px 30px 0 100px;
+}
+
+.bluearea {
+    height: 200px;
+    width: 930px;
+    background-color: #140748;
+    margin: -80px;
+    padding-left: 155px;
+    padding-top: 150px;
+}
+
+.font {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.Services {
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+}
+
+/* Personal Details Section */
+.features2, .features3 {
+    padding-top: 0;
+    margin-top: 0;
+    padding-right: 50px;
+}
+
+.teacher {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+
+.hell {
+    padding-top: 180px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.navigation3 {
+    padding-top: 120px;
+    font-size: small;
+}
+
+.and {
+    padding-top: 40px;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.thermo {
+    font-size: 15px;
+    padding-top: 0%;
+}
+
+.figure {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* Services Section */
+.services1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 100px 0 10px 0;
+    font-size: 20px;
+}
+
+.ui {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 1px;
+    padding: 2px 1px 0 1px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.ui img {
+    height: 200px;
+    width: 150px;
+    padding-bottom: 10px;
+    border-radius: 0;
+    padding-right: 0px;
+}
+
+.ui .ab4 {
+    padding-bottom: 30px;
+}
+
+.ui input {
+    background-color: white;
+    color: midnightblue;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px gray;
+}
+
+.but {
+    padding-bottom: 15px;
+}
+
+/* Portfolio Section */
+.pfolio img {
+    background-size: cover;
+    width: 740px;
+    height: 500px;
+    
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    
+
+}
+
+/* Footer */
+.copyright {
+    background-color: midnightblue;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 100px;
+}
+
+.copy1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.copy2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 10px;
+    padding-bottom: 20px;
+}
+
+.copy2 img {
+    height: 50px;
+    width: 50px;
+}
+
+.copy3 {
+    font-size: 15px;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+.abc hr {
+    width:100%;
+    border: 0.5px solid gray;
+}
